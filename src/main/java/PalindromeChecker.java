@@ -34,7 +34,7 @@ public void tester()
       System.out.println(lines[i] + " is NOT a palindrome.");
     }
   }
-}
+
 
 public boolean Palindrome(String sWord) {
     String a = onlyLetters(sWord).toLowerCase(); 
@@ -59,4 +59,5 @@ public String onlyLetters(String sString) {
         }
     }
     return x;
+}
 }
